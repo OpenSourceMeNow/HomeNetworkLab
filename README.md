@@ -47,7 +47,7 @@ wg genkey | sudo tee /etc/wireguard/privatekey
 
 ![Network Lab Setup](images/Wireguard-mobile.PNG)  
 
-*wiregaurd showing packets sent and recieved* 
+*Wiregaurd showing packets sent and recieved* 
 
 ## Implementation Process
 
