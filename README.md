@@ -8,7 +8,7 @@ This repository documents my home network lab, featuring a Samba file share, Wir
 
 ## System Specifications
 
-![Network Lab Setup](images/lab-hardware.png)  
+
 *My Raspberry Pi 5, switch, and router setup*
 
 - **Hardware**: Raspberry Pi 5 (4GB RAM)
