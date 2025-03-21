@@ -8,7 +8,7 @@ This repository documents my home network lab, featuring a Samba file share, Wir
 
 ## System Specifications
 
-
+![Network Lab Setup](images/lab-hardware.png)  
 *My Raspberry Pi 5, switch, and router setup*
 
 - **Hardware**: Raspberry Pi 5 (4GB RAM)
@@ -45,9 +45,9 @@ wg genkey | sudo tee /etc/wireguard/privatekey
 ```
 - Set up VPN server and clients.
 
-pi hole dashboard
+![Network Lab Setup](images/Wireguard-mobile.PNG)  
 
-Pi-hole admin interface showing ad-blocking statistics
+*wiregaurd showing packets sent and recieved* 
 
 ## Implementation Process
 
@@ -92,9 +92,9 @@ iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
 
 - Set up iPhone client (`172.16.0.2`) with on-demand activation for cellular.
 
-sambda file share
+![Network Lab Setup](images/Samba-Iphone16.PNG)  
 
-Samba file share accessed via iPhone over VPN
+*Samba file share accessed via iPhone over VPN*
 
 ## Troubleshooting Challenges & Solutions
 
